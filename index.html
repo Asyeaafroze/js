@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>js50</title>
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+   <script src="https://kit.fontawesome.com/440f76681c.js" crossorigin="anonymous"></script>
+     
+</head>
+<body>
+   <div class="container">
+      <!--rose change-->
+      <h3 class="text-warning">click the button to change the roses</h3>
+      <button class="btn btn-info"onclick="blueRose()">blueRose</button>
+      <button class="btn btn-dark"onclick="blackRose()">blackRose</button>
+      <button class="btn btn-danger"onclick="pinkRose()">pinkRose</button>
+      <button class="btn btn-success"onclick=" whiteRose()"> whiteRose</button>
+      <img id="roses" src="image/blue.jpg" alt="roses">
+       <hr>
+       <!--text change-->
+       <h2 class="text-danger">click the button to change the last line</h2>
+       <button class="btn btn-dark"onclick="textChange1()">text change</button>
+       <h3 id="tc" class="tc">Lorem, ipsum dolor.</h3>
+       <h3 id="tc" class="tc">Lorem, ipsum dolor.</h3>
+       <h3 id="tc" class="tc">Lorem, ipsum dolor.</h3>
+     
+      <hr>
+      <!--calculation-->
+      <h2 class="text-warning">click the button to get the result</h2>
+      <button class="btn btn-info" onclick="calculation2()">calculation</button>
+      <h3 id="value2">value</h3>
+      <hr> 
+      <!--calculation-->
+      <h2 class="text-info">click the button to get the result</h2>
+      <button class="btn btn-warning" onclick="calculation1()">calculation</button>
+      <h3 id="value1">value</h3>
+      <hr>
+      <!--calculation-->
+      <h2 class="text-danger">click the button to get the result</h2>
+      <button class="btn btn-success" onclick="calculation()">calculation</button>
+      <h3 id="value">value</h3>
+      <hr>
+      <!--text hide /show-->
+      <h2 class="text-success">click the button to show/hide the text</h2>
+       <button class="btn btn-danger"onmousemove=" showText()"> show</button>
+       <button class="btn btn-danger"onmousemove=" hideText()"> hide</button>
+       <h3 id="s_h">Lorem, ipsum dolor.</h3>
+       <hr>
+
+      <!--color change-->
+      <h2 class="text-info">click the button to change color</h2>
+       <button class="btn btn-success"onmousemove="colorChange()">color change</button>
+       <h3 id="c_c">Lorem, ipsum dolor.</h3>
+       <hr>
+      <!--bulb on off-->
+      <h2 class="text-danger">click the button on off bulb</h2>
+      <button class="btn btn-warning" onclick="bulbOn()">on</button>
+      <button class="btn btn-warning" onclick="bulbOff()">off</button>
+      <img id="bulb" src="bulb.gif">
+      <hr>
+       <!--show time-->
+   <h2 class="text-danger">click here to see the time</h2>
+   <button class="btn btn-dark" onclick="showDate()">show date</button>
+   <h3 id="s_d">Lorem, ipsum dolor sit </h3> 
+   <hr>
+      <!--text change-->
+      <h2 class="text-danger">click the button to change the text</h2>
+      <button class="btn btn-dark"onclick="textChange()">text change</button>
+      <h3 id="t_c">Lorem, ipsum dolor.</h3>
+      <hr>
+ 
+      <!--boolean--> 
+      <h2>click the button get the rignt answer;true/false</h2> 
+      <button class="btn btn-success"onclick="boolean1()">answer</button>
+      <h3 id="b.v"> 73>60 ? </h3>
+      <hr>
+      <!-- array  -->
+      
+      <h3 class="text-info">array</h3><br>
+      <h2>red,green,yellow,blue,black</h2>
+      <button class="btn btn-secondary" onclick="color1()">show blue</button>
+      <button class="btn btn-success" onclick="color2()">show yellow</button>
+      <button class="btn btn-danger" onclick=" color3()">show green</button>
+      <h2 id="array"></h2>
+      <hr>
+      <!-- upper case -->
+      <h2 class="text-dark">Click the button to change the text in uppercase</h2>
+      <button class="btn btn-warning" onclick="textUpper()">Uppercase</button>
+      <p id="u_t">hello world !</p>
+      <hr>
+
+      <!-- lower case -->
+      <h2 class="text-dark">Click the button to change the text in lowercase</h2>
+      <button class="btn btn-warning" onclick="textLower()">Lowercase</button>
+      <p id="l_t">HELLO WORLD!</p>
+      <hr>
+      
+   </div>
+ 
+     
+    
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"></script>
+   </body>
+   </html>
